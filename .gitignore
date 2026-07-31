@@ -19,3 +19,14 @@ Thumbs.db
 
 # Logs
 *.log
+
+# npm cache/logs
+workspace/.npm/
+
+# Shell history inside the workspace container
+workspace/.bash_history
+
+# PHP/Node dependencies
+app/vendor/
+app/node_modules/
+
