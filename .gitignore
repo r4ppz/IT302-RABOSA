@@ -1,0 +1,21 @@
+# MySQL persistent data
+mysql/data/*
+
+# Redis persistent data
+redis/data/*
+
+# Keep the directory placeholders
+!mysql/data/.gitkeep
+!redis/data/.gitkeep
+
+# SSL certificates (optional, generated locally)
+nginx/ssl/*.pem
+nginx/ssl/*.key
+nginx/ssl/*.crt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

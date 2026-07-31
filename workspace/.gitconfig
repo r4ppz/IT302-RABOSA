@@ -1,0 +1,16 @@
+# ~/.gitconfig - git configuration for the workspace container
+[user]
+	name = r4ppz
+	email = johnreyrabosa.f@gmail.com
+
+[init]
+	defaultBranch = main
+
+[color]
+	ui = auto
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
